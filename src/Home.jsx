@@ -10,7 +10,7 @@ import CSS from './assets/images/CSS.svg'
 import mail from './assets/images/mail.svg'
 import github from './assets/images/github.svg'
 import profile from './assets/images/profile.svg'
-import vector from './assets/images/vector.svg'
+import vector from './assets/images/Vector.svg'
 import './Home.css'
 
 
