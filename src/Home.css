@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', 'Hammersmith One' sans-serif;
+}
+
+:root{
+    --gray: #2D2D2D;
+    --white: #FFFFFF;
+    --vivid-orange: #F16529;
+    --light-gray:#B5B5B5;
+}
+
+body{
+    background-color: var(--gray);
+}
+
+.head{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.full{
+    background-color: var(--white);
+    color: var(--vivid-orange);
+    font-family: 'Hammersmith One';
+    font-size: 18px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.name {
+    font-family: 'Hammersmith One';
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--white);
+}
+.lorem {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-gray);
+}
+
+.list{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.image{
+    background-image: url('./assets/images/circle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 380px;
+    margin-top: 20px;
+}
+
+.image img{
+    width: 100%;
+}
+.link {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+.link a {
+    text-decoration: none;
+}
+
+@media (min-width: 765px){
+    .full{
+        font-size: 20px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+    .lorem{
+        font-size: 20px;
+    }
+
+    .list{
+        gap: 2.5rem;
+    }
+
+    .image{
+       margin: 20px auto;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .links{
+        display: flex;
+        gap: 0.8rem;
+    }
+}
+
+@media (min-width: 928px) {
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* font-size: 20px; */
+        width: 100%;
+    }
+    .header{
+        width: 50%;
+    }
+    .image{
+        width: 50%;
+    }
+    .link{
+        width: 30;
+        display: flex;
+        gap: 4rem;
+        margin-top: 9rem;
+        margin-right: 7rem;
+    }
+    .links{
+        display: flex;
+        gap: 0.8rem;
+        /* width: 30; */
+    }
+    .list{
+        display: flex;
+        gap: 2rem;
+    }
+    .image img{
+        width: 1px!important;
+    }
+
+}
