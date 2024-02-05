@@ -138,8 +138,5 @@ body{
         display: flex;
         gap: 2rem;
     }
-    .image img{
-        width: 1px!important;
-    }
 
 }
