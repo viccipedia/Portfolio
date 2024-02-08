@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar'
 import Home from './Home';
 import Projects from './Projects';
+import Contacts from './Contacts';
 
 function App() {
 
